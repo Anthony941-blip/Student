@@ -3,10 +3,6 @@
 using namespace std;
 
 class Student{
-	
-    private:
-     string name;
-     vector<double> grades;
 
     public:
 	
@@ -14,5 +10,11 @@ class Student{
      void addGrade(double grade);
      double calculateAverage();
      void printDetails();
+	
+     private:
+
+      string name;
+      vector<double> grades;
+
 
 };
