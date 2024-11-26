@@ -39,8 +39,7 @@ double Student::calculateAverage() {
 
 
 //the method that prints Student name 
-//and grade with the printf("%.2f") 
-//that rounds to two d.p.
+//and grade that rounds to two d.p.
 
 void Student::printDetails() {
 
